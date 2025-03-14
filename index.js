@@ -112,9 +112,9 @@ app.all('/', (req, res) => {
         // session: req.session
         user: req.user,
         documents: {
-            swagger:'http://127.0.0.1:8000/documents/swagger',
-            redoc:'http://127.0.0.1:8000/documents/redoc',
-            json:'http://127.0.0.1:8000/documents/json',
+            swagger:'https://personnel-api-bvtu.onrender.com/documents/swagger/',
+            redoc:'https://personnel-api-bvtu.onrender.com/documents/redoc',
+            json:'https://personnel-api-bvtu.onrender.com/documents/json',
         }
     })
 });
